@@ -65,27 +65,26 @@
 
 
 ### Folder Structure 
-📁 Project Directory: tests/pegasus/codeGenie_agentic_ui_test_generator/
+📁 Project Directory: codeGenie_agentic_ui_test_generator/
  
-tests/
-├── pegasus/
-│   ├── codeGenie_agentic_ui_test_generator/
-│   │   ├── .env
-│   │   ├── start_workflow.py
-│   │   ├── OpenAI_UI_TestGenerator.py
-│   │   ├── ai_generated_tests/
-│   │   │   ├── codeGenie_generated_testcases/
-│   │   │   │   ├── ai_generated_ui_testcases_<DATETIME>.txt
-│   │   │   ├── codeGenie_generated_code/
-│   │   │   │   ├── ai_refactored_script_<DATETIME>.py
-│   │   ├── raw_script/
-│   │   │   ├── generated_code.py
-│   │   ├── autofix_code_and_logs/
-│   │   │   ├── ai_fixed_script_attempt.py
-│   │   │   ├── refactored_script_failure.log
-│   │   │   ├── retry_failure_attempt_1.log
-│   │   │   ├── retry_failure_attempt_2.log
-│   │   │   ├── retry_failure_attempt_3.log
+codeGenie_agentic_ui_test_generator/
+├── .env
+├── start_workflow.py
+├── OpenAI_UI_TestGenerator.py
+├── codeGenie_chatbot.py
+├── ai_generated_tests/
+│   ├── codeGenie_generated_testcases/
+│   │   ├── ai_generated_ui_testcases_<DATETIME>.txt
+│   ├── codeGenie_generated_code/
+│   │   ├── ai_refactored_script_<DATETIME>.py
+├── raw_script/
+│   ├── generated_code.py
+├── autofix_code_and_logs/
+│   ├── ai_fixed_script_attempt.py
+│   ├── refactored_script_failure.log
+│   ├── retry_failure_attempt_1.log
+│   ├── retry_failure_attempt_2.log
+│   ├── retry_failure_attempt_3.log
  
 
 ### Files
